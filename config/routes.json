@@ -1,0 +1,15 @@
+{
+  "$schema": "https://cdn.zuplo.com/schemas/routes.json",
+  "routes": [],
+  "versions": [
+    {
+      "name": "none",
+      "pathPrefix": ""
+    },
+    {
+      "name": "v1",
+      "pathPrefix": "/v1"
+    }
+  ],
+  "policies": []
+}

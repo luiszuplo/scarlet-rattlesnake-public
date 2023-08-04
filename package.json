@@ -1,0 +1,28 @@
+{
+  "name": "scarlet-rattlesnake",
+  "version": "1.0.0",
+  "author": "",
+  "copyright": "",
+  "scripts": {
+    "dev": "zuplo dev",
+    "build": "zuplo build",
+    "test": "zuplo test",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "@zuplo/runtime": "file:/Users/lcampos/dev/zuplo/core/packages/runtime"
+  },
+  "devDependencies": {
+    "@types/chai": "4.3.4",
+    "@zuplo/core": "file:/Users/lcampos/dev/zuplo/core/packages/core",
+    "@zuplo/test": "*",
+    "chai": "4.3.4",
+    "husky": "^7.0.4"
+  },
+  "overrides": {
+    "@zuplo/core": "file:/Users/lcampos/dev/zuplo/core/packages/core",
+    "@zuplo/runtime": "file:/Users/lcampos/dev/zuplo/core/packages/runtime",
+    "@zuplo/debug": "file:/Users/lcampos/dev/zuplo/core/packages/debug",
+    "@zuplo/errors": "file:/Users/lcampos/dev/zuplo/core/packages/errors"
+  }
+}
